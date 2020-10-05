@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mir Sporta</title>
+  <!-- Additional CSS files -->
+  <!-- Normalize.css + Reset.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Main CSS Style -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header header-page">
+    <div class="container">
+      <div class="menu-top">
+        <span class="burger">☰</span>
+        <div class="region">
+          <img src="img/svg/location.svg" alt="location">
+          <span class="location">Ваш регион: Владимир</span>
+        </div>
+        <ul class="menu-list">
+          <li class="menu-item"><a href="#" class="menu-link">Контакты</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Акции</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Бесплатная доставка</a></li>
+        </ul>
+        <ul class="account-list">
+          <li class="account-item">
+            <a class="account-link" href="#"><img class="account-logo" src="img/svg/user-account.svg" alt="user" width="26.67" height="26.67"><span class="account-title">Мой аккаунт</span></a>
+          </li>
+          <li class="account-item">
+            <a class="account-link" href="#"><img class="account-logo" src="img/svg/cart.svg" alt="cart" width="26.67" height="26.67"><span class="account-title">Корзина пуста</span></a>
+          </li>
+        </ul>       
+      </div>
+      <!-- /.menu-top -->
+      <div class="menu-middle">
+        <img src="img/Logo.png" alt="Mir-Sporta.com" width="272" height="46"> 
+
+        <div class="phone">
+          <img src="img/svg/phone.svg" alt="phone" class="phone-logo">
+          <ul class="phone-list">
+            <li class="phone-item"><a href="tel:88003501095" class="phone-link">8(800) 350-10-95</a></li>
+            <li class="phone-item"><a href="tel:88003501095" class="phone-link">8(800) 350-10-95</a></li>
+            <li class="phone-item phone-subtitle">Бесплатно с 8:00 до 23:00</li>
+          </ul>
+        </div>
+
+        <form class="call-request" autocomplete="off" action="get">
+          <input class="call" type="submit" value="Заказать звонок" />
+          <div class="product-select">
+            <input type="text" value="Найти товары" class="product-search">
+            <button type="submit" class="product-submit">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.502 13.9089H15.708L15.432 13.6349C16.407 12.4979 17 11.0239 17 9.4089C17 5.8189 14.09 2.90891 10.5 2.90891C6.91 2.90891 4 5.8189 4 9.4089C4 12.9989 6.91 15.9089 10.5 15.9089C12.115 15.9089 13.588 15.3169 14.725 14.3429L15.001 14.6169V15.4089L19.999 20.3999L21.49 18.9089L16.502 13.9089ZM10.5 13.9089C8.014 13.9089 6 11.8949 6 9.40887C6 6.92387 8.014 4.90887 10.5 4.90887C12.985 4.90887 15 6.92387 15 9.40887C15 11.8949 12.985 13.9089 10.5 13.9089Z" fill="white"/>
+                </svg>
+            </button>
+          </div>
+        </form>
+
+        <ul class="svg-icons">
+          <li class="svg-icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.3333 26.6666H18.6666V5.33325H13.3333V26.6666ZM5.33325 26.6666H10.6666V15.9999H5.33325V26.6666ZM21.3333 11.9999V26.6666H26.6666V11.9999H21.3333Z" fill="black"/>
+              </svg>
+          </li>
+          <li class="svg-icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.9998 4C19.6798 4 17.4532 5.08 15.9998 6.78667C14.5465 5.08 12.3198 4 9.99984 4C5.89317 4 2.6665 7.22667 2.6665 11.3333C2.6665 16.3733 7.19984 20.48 14.0665 26.72L15.9998 28.4667L17.9332 26.7067C24.7998 20.48 29.3332 16.3733 29.3332 11.3333C29.3332 7.22667 26.1065 4 21.9998 4ZM16.1332 24.7333L15.9998 24.8667L15.8665 24.7333C9.51984 18.9867 5.33317 15.1867 5.33317 11.3333C5.33317 8.66667 7.33317 6.66667 9.99984 6.66667C12.0532 6.66667 14.0532 7.98667 14.7598 9.81333H17.2532C17.9465 7.98667 19.9465 6.66667 21.9998 6.66667C24.6665 6.66667 26.6665 8.66667 26.6665 11.3333C26.6665 15.1867 22.4798 18.9867 16.1332 24.7333Z" fill="black"/>
+            <path d="M21.9999 6.66675C19.9466 6.66675 17.9466 7.98675 17.2533 9.81342H14.7599C14.0533 7.98675 12.0533 6.66675 9.99992 6.66675C7.33325 6.66675 5.33325 8.66675 5.33325 11.3334C5.33325 15.1867 9.51992 18.9867 15.8666 24.7334L15.9999 24.8667L16.1333 24.7334C22.4799 18.9867 26.6666 15.1867 26.6666 11.3334C26.6666 8.66675 24.6666 6.66675 21.9999 6.66675Z" fill="white"/>
+            <path d="M22.0001 4C19.6801 4 17.4534 5.08 16.0001 6.78667C14.5467 5.08 12.3201 4 10.0001 4C5.89341 4 2.66675 7.22667 2.66675 11.3333C2.66675 16.3733 7.20008 20.48 14.0667 26.72L16.0001 28.4667L17.9334 26.7067C24.8001 20.48 29.3334 16.3733 29.3334 11.3333C29.3334 7.22667 26.1067 4 22.0001 4ZM16.1334 24.7333L16.0001 24.8667L15.8667 24.7333C9.52008 18.9867 5.33341 15.1867 5.33341 11.3333C5.33341 8.66667 7.33342 6.66667 10.0001 6.66667C12.0534 6.66667 14.0534 7.98667 14.7601 9.81333H17.2534C17.9467 7.98667 19.9467 6.66667 22.0001 6.66667C24.6667 6.66667 26.6667 8.66667 26.6667 11.3333C26.6667 15.1867 22.4801 18.9867 16.1334 24.7333Z" fill="black"/>
+            </svg>
+          </li>
+          <li class="svg-icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.6534 10.3467C20.0934 8.78675 18.0534 8.00008 16.0001 8.00008V16.0001L10.3467 21.6534C13.4667 24.7734 18.5334 24.7734 21.6667 21.6534C24.7867 18.5334 24.7867 13.4667 21.6534 10.3467ZM16.0001 2.66675C8.64008 2.66675 2.66675 8.64008 2.66675 16.0001C2.66675 23.3601 8.64008 29.3334 16.0001 29.3334C23.3601 29.3334 29.3334 23.3601 29.3334 16.0001C29.3334 8.64008 23.3601 2.66675 16.0001 2.66675ZM16.0001 26.6667C10.1067 26.6667 5.33341 21.8934 5.33341 16.0001C5.33341 10.1067 10.1067 5.33341 16.0001 5.33341C21.8934 5.33341 26.6667 10.1067 26.6667 16.0001C26.6667 21.8934 21.8934 26.6667 16.0001 26.6667Z" fill="black"/>
+              <path d="M15.9999 5.32007C10.1066 5.32007 5.33325 10.0934 5.33325 15.9867C5.33325 21.8801 10.1066 26.6534 15.9999 26.6534C21.8933 26.6534 26.6666 21.8801 26.6666 15.9867C26.6666 10.0934 21.8933 5.32007 15.9999 5.32007ZM21.6666 21.6401C18.5333 24.7601 13.4666 24.7601 10.3466 21.6401L15.9999 15.9867V7.98673C18.0533 7.98673 20.0933 8.7734 21.6532 10.3334C24.7866 13.4534 24.7866 18.5201 21.6666 21.6401Z" fill="white"/>
+              <path d="M21.6534 10.3333C20.0934 8.77332 18.0534 7.98665 16.0001 7.98665V15.9867L10.3467 21.64C13.4667 24.76 18.5334 24.76 21.6667 21.64C24.7867 18.52 24.7867 13.4533 21.6534 10.3333ZM16.0001 2.65332C8.64008 2.65332 2.66675 8.62665 2.66675 15.9867C2.66675 23.3467 8.64008 29.32 16.0001 29.32C23.3601 29.32 29.3334 23.3467 29.3334 15.9867C29.3334 8.62665 23.3601 2.65332 16.0001 2.65332ZM16.0001 26.6533C10.1067 26.6533 5.33341 21.88 5.33341 15.9867C5.33341 10.0933 10.1067 5.31999 16.0001 5.31999C21.8934 5.31999 26.6667 10.0933 26.6667 15.9867C26.6667 21.88 21.8934 26.6533 16.0001 26.6533Z" fill="black"/>
+              </svg>
+          </li>
+        </ul>
+      </div>
+      <!-- /.menu-middle -->
+      <div class="menu-bottom">
+
+        <div class="submenu">
+          <svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 7H2.5V4.5H0V7ZM0 11H2.5V8.5H0V11ZM0 3H2.5V0.5H0V3ZM4 7H8.5V5H4V7ZM4 11H18V9H4V11ZM4 1V3H13V1H4Z" fill="white"/>
+            </svg>
+          <span class="submenu-title">Полный каталог</span>
+        </div>
+        
+
+        <ul class="submenu-list">
+          <li class="submenu-item"><a href="#" class="submenu-link">Беговые дорожки</a></li>
+          <li class="submenu-item"><a href="#" class="submenu-link">Батуты</a></li>
+          <li class="submenu-item"><a href="#" class="submenu-link">Детские городки</a></li>
+          <li class="submenu-item"><a href="#" class="submenu-link">Силовые тренажеры</a></li>
+          <li class="submenu-item"><a href="#" class="submenu-link">Эллипсы</a></li>
+        </ul>
+      </div>
+      <!-- /.menu-bottom -->  
+    </div>
+    <!-- /.container -->
+  </header>
+  <!-- /.header -->
+  <main class="main main-page">
+    <div class="container">
+      <section class="gallery">
+        <img class="banner" src="img/banner_1.png" alt="banner 1">
+        <img class="banner" src="img/banner_2.png" alt="banner 2">
+        <img class="banner" src="img/banner_3.png" alt="banner 3">
+      </section>
+      <!-- /.gallery -->
+      <section class="market">
+        <div class="market-title"><h2 class="title-up">Онлайн-гипермаркет</h2><h2 class="title-down">cпортивных тренажёров</h2></div>
+        <div class="market-list">
+          <div class="market-item">
+            <a href="#" class="market-image"><img src="img/fit_1.png" alt="Беговые дорожки"></a>
+            <a href="#" class="market-counter">1223 товара</a>
+            <a href="#" class="market-name">Беговые дорожки</a>
+          </div>
+          <div class="market-item">
+            <a href="#" class="market-image"><img src="img/fit_2.png" alt="Виброплатформы"></a>
+            <a href="#" class="market-counter">1223 товара</a>
+            <a href="#" class="market-name">Виброплатформы</a>
+          </div>
+          <div class="market-item">
+            <a href="#" class="market-image"><img src="img/fit_3.png" alt="Велотренажёры"></a>
+            <a href="#" class="market-counter">1223 товара</a>
+            <a href="#" class="market-name">Велотренажёры</a>
+          </div>
+          <div class="market-item">
+            <a href="#" class="market-image"><img src="img/fit_4.png" alt="Эллиптические тренажеры"></a>
+            <a href="#" class="market-counter">1223 товара</a>
+            <a href="#" class="market-name">Эллиптические тренажеры</a>
+          </div>
+          <div class="market-item">
+            <a href="#" class="market-image"><img src="img/fit_5.png" alt="Силовое оборудование"></a>
+            <a href="#" class="market-counter">1223 товара</a>
+            <a href="#" class="market-name">Силовое оборудование</a>
+          </div>
+          <div class="market-item">
+            <a href="#" class="market-image"><img src="img/fit_6.png" alt="Гребные тренажёры"></a>
+            <a href="#" class="market-counter">1223 товара</a>
+            <a href="#" class="market-name">Гребные тренажёры</a>
+          </div>
+          <div class="market-item">
+            <a href="#" class="market-image"><img src="img/fit_7.png" alt="Батуты"></a>
+            <a href="#" class="market-counter">1223 товара</a>
+            <a href="#" class="market-name">Батуты</a>
+          </div>
+          <div class="market-item">
+            <a href="#" class="market-image shape-link"><img src="img/shape.png" alt="Остальные категории" class="shape-image"></a>
+            <a href="#" class="market-name">Остальные категории</a>
+          </div>
+        </div>
+      </section>
+      <!-- /.market -->
+      <section class="hits">
+        <h3 class="hits-title">Хиты продаж</h3>
+        <hr class="hits-separator">
+          <div class="hits-list">
+            <div class="hits-item">
+              <img class="hits-image" src="img/hit_item.png" alt="кресло" width="241" height="284"><br>
+              <span class="hits-name">Беговая дорожка<br> Nordic track</span>
+              <div class="hits-rating">
+                <ul class="star-list">
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                </ul>
+                <span class="hits-feedback">8 отзывов</span>
+              </div>
+              <div class="cost">
+                <b class="cost-new">42789 &#8381;</b>
+                <del class="cost-old">50210 &#8381;</del>
+              </div>
+              <button class="btn-cart">В конрзину</button>
+            </div>
+            <div class="hits-item">
+              <img class="hits-image" src="img/hit_item.png" alt="кресло" width="241" height="284"><br>
+              <span class="hits-name">Беговая дорожка<br> Nordic track</span>
+              <div class="hits-rating">
+                <ul class="star-list">
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                </ul>
+                <span class="hits-feedback">8 отзывов</span>
+              </div>
+              <div class="cost">
+                <b class="cost-actual">42789 &#8381;</b>
+                <!-- <del class="cost-old">50210 &#8381;</del> -->
+              </div>
+              <button class="btn-cart">В конрзину</button>
+            </div>
+            <div class="hits-item">
+              <img class="hits-image" src="img/hit_item.png" alt="кресло" width="241" height="284"><br>
+              <span class="hits-name">Беговая дорожка<br> Nordic track</span>
+              <div class="hits-rating">
+                <ul class="star-list">
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                </ul>
+                <span class="hits-feedback">8 отзывов</span>
+              </div>
+              <div class="cost">
+                <b class="cost-new">42789 &#8381;</b>
+                <del class="cost-old">50210 &#8381;</del>
+              </div>
+              <button class="btn-cart">В конрзину</button>
+            </div>
+            <div class="hits-item">
+              <img class="hits-image" src="img/hit_item.png" alt="кресло" width="241" height="284"><br>
+              <span class="hits-name">Беговая дорожка<br> Nordic track</span>
+              <div class="hits-rating">
+                <ul class="star-list">
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                </ul>
+                <span class="hits-feedback">8 отзывов</span>
+              </div>
+              <div class="cost">
+                <b class="cost-actual">42789 &#8381;</b>
+                <!-- <del class="cost-old">50210 &#8381;</del> -->
+              </div>
+              <button class="btn-cart">В конрзину</button>
+            </div>
+            <div class="hits-item">
+              <img class="hits-image" src="img/hit_item.png" alt="кресло" width="241" height="284"><br>
+              <span class="hits-name">Беговая дорожка<br> Nordic track</span>
+              <div class="hits-rating">
+                <ul class="star-list">
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                  <li class="star-item">&#9733</li>
+                </ul>
+                <span class="hits-feedback">8 отзывов</span>
+              </div>
+              <div class="cost">
+                <b class="cost-actual">42789 &#8381;</b>
+                <!-- <del class="cost-old">50210 &#8381;</del> -->
+              </div>
+              <button class="btn-cart">В конрзину</button>
+            </div>
+          </div>
+      </section>
+      <!-- /.hits -->
+      <section class="feedback">
+        <div class="feedback-content">
+          <img src="img/video_logo.png" alt="Видеоотзыв" class="feedback-image" width="147" height="48">
+          <p class="feedback-text">MIR-SPORTA.COM специализируется на продаже спортивного оборудования, тренажеров и товаров для активного отдыха. MIR-SPORTA.COM является официальным дилером производителей спортивного оборудования. Пункты выдачи заказов компании MIR-SPORTA.COM находятся более чем в 150 городах России.</p>
+          <a class="feedback-link" href="#">Посмотреть все отзывы</a>
+        </div>
+        <div class="feedback-video">
+          <iframe class="video-item" width="224" height="184" src="https://www.youtube.com/embed/w-9xQQC1SAU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+      <!-- /.feedback -->
+      <section class="news">
+        <div class="news-content">
+          <img src="img/news-logo.png" alt="Новости" class="news-image" width="89" height="48">
+          <p class="news-text">MIR-SPORTA.COM специализируется на продаже спортивного оборудования, тренажеров и товаров для активного отдыха. </p>
+          <a class="news-link" href="#">Посмотреть все отзывы</a>
+        </div>
+        <div class="news-video">
+          <iframe class="video-item" width="224" height="184" src="https://www.youtube.com/embed/w-9xQQC1SAU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video-item" width="224" height="184" src="https://www.youtube.com/embed/w-9xQQC1SAU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+      <!-- /.news -->
+      <section class="brands">
+        <img src="img/brand logo.png" alt="Бренды" class="brands-image">
+        <ul class="brands-list">
+          <li class="brands-item"><a href="#" class="brands-link"><img src="img/adidas-logo.png" alt="adidas" class="brands-logo"></a></li>
+          <li class="brands-item"><a href="#" class="brands-link"><img src="img/kettler-logo.png" alt="kettler" class="brands-logo"></a></li>
+          <li class="brands-item"><a href="#" class="brands-link"><img src="img/adidas-logo.png" alt="adidas" class="brands-logo"></a></li>
+          <li class="brands-item"><a href="#" class="brands-link"><img src="img/kettler-logo.png" alt="kettler" class="brands-logo"></a></li>
+          <li class="brands-item"><a href="#" class="brands-link"><img src="img/adidas-logo.png" alt="adidas" class="brands-logo"></a></li>
+          <li class="brands-item"><a href="#" class="brands-link"><img src="img/kettler-logo.png" alt="kettler" class="brands-logo"></a></li>
+          <li class="brands-item"><a href="#" class="brands-link"><img src="img/adidas-logo.png" alt="adidas" class="brands-logo"></a></li>
+          <li class="brands-item"><a href="#" class="brands-link"><img src="img/kettler-logo.png" alt="kettler" class="brands-logo"></a></li>
+          <li class="brands-item"><a href="#" class="brands-link"><img src="img/kettler-logo.png" alt="kettler" class="brands-logo"></a></li>
+          <li class="brands-item"><a href="#" class="brands-link"><img src="img/adidas-logo.png" alt="adidas" class="brands-logo"></a></li>
+        </ul>
+      </section>
+      <!-- /.brands -->
+    </div>
+    <!-- /.container -->
+  </main>
+  <!-- /.main -->
+  <footer class="footer footer-page">
+    <div class="container">
+      <section class="footer-info">
+        <div class="basic-info">
+          <img src="img/logo-footer.png" alt="Mir-Sporta.com" class="footer-logo" width="368" height="61">
+          <h3 class="promo-text">Более 10 000 заказов от Ялты до Владивостока</h3>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.1741 0H2.03497C0.925404 0 0.0276651 0.9 0.0276651 2L0.0175781 14C0.0175781 15.1 0.925404 16 2.03497 16H18.1741C19.2837 16 20.1915 15.1 20.1915 14V2C20.1915 0.9 19.2837 0 18.1741 0ZM18.1741 4L10.1045 9L2.03497 4V2L10.1045 7L18.1741 2V4Z" fill="white"/>
+                </svg>                
+              <a class="contact-email" href="mailto:info@mir-sporta.com">info@mir-sporta.com</a>
+            </li>
+            <li class="contact-item">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.62 7.79C5.06 10.62 7.38 12.93 10.21 14.38L12.41 12.18C12.68 11.91 13.08 11.82 13.43 11.94C14.55 12.31 15.76 12.51 17 12.51C17.55 12.51 18 12.96 18 13.51V17C18 17.55 17.55 18 17 18C7.61 18 0 10.39 0 1C0 0.45 0.45 0 1 0H4.5C5.05 0 5.5 0.45 5.5 1C5.5 2.25 5.7 3.45 6.07 4.57C6.18 4.92 6.1 5.31 5.82 5.59L3.62 7.79Z" fill="white"/>
+              </svg>
+              <a class="contact-number" href="tel:88003501095">8(800) 350-10-95</a>
+            </li>
+            <li class="contact-item">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.62 7.79C5.06 10.62 7.38 12.93 10.21 14.38L12.41 12.18C12.68 11.91 13.08 11.82 13.43 11.94C14.55 12.31 15.76 12.51 17 12.51C17.55 12.51 18 12.96 18 13.51V17C18 17.55 17.55 18 17 18C7.61 18 0 10.39 0 1C0 0.45 0.45 0 1 0H4.5C5.05 0 5.5 0.45 5.5 1C5.5 2.25 5.7 3.45 6.07 4.57C6.18 4.92 6.1 5.31 5.82 5.59L3.62 7.79Z" fill="white"/>
+              </svg>
+              <a class="contact-number" href="tel:88003501095">8(800) 350-10-95</a>
+            </li>
+            <li class="contact-item contact-timework">Бесплатно с 8:00 до 23:00</li>
+          </ul>
+          <form class="call-request footer-request" autocomplete="off" action="get">
+            <input class="call" type="submit" value="Заказать звонок" />
+          </form>
+          <adress class="adress">
+            <b class="adress-bold">Адрес</b>: 117630, г. Москва,<br> 
+            Старокалужское шоссе, д.62<br>
+            <br>
+            <b class="adress-bold">ОГРН</b>: 1177746083305
+          </adress>
+          <b class="social-message">Мы в соц сетях</b>
+        </div>
+        <!-- /.basic-info -->
+        <div class="catalog">
+          <strong class="catalog-title">Каталог</strong>
+          <ul class="catalog-list">
+            <li class="catalog-item"><a href="#" class="catalog-link">Беговые дорожки</a></li>
+            <li class="catalog-item"><a href="#" class="catalog-link">Виброплатформы</a></li>
+            <li class="catalog-item"><a href="#" class="catalog-link">Велотренажёры</a></li>
+            <li class="catalog-item"><a href="#" class="catalog-link">Эллиптические тренажёры</a></li>
+            <li class="catalog-item"><a href="#" class="catalog-link">Степперы</a></li>
+            <li class="catalog-item"><a href="#" class="catalog-link">Гребные тренажёры</a></li>
+            <li class="catalog-item"><a href="#" class="catalog-link">Силовые тренажёры</a></li>
+            <li class="catalog-item"><a href="#" class="catalog-link">Батуты</a></li>
+            <li class="catalog-item"><a href="#" class="catalog-link">Массажное оборудование</a></li>
+            <li class="catalog-item"><a href="#" class="catalog-link">Детские городки</a></li>
+            <li class="catalog-item"><a href="#" class="catalog-link">Аксеессуары к тренажёрам</a></li>
+          </ul>
+        </div>
+        <!-- /.catalog -->
+        <div class="help">
+          <strong class="help-title">Помощь</strong>
+          <ul class="help-list">
+            <li class="help-item"><a href="#" class="help-link">Бесплатная доставка</a></li>
+            <li class="help-item"><a href="#" class="help-link">Гарантии</a></li>
+            <li class="help-item"><a href="#" class="help-link">Оплата</a></li>
+            <li class="help-item"><a href="#" class="help-link">Сборка</a></li>
+            <li class="help-item"><a href="#" class="help-link">Отзывы</a></li>
+            <li class="help-item"><a href="#" class="help-link">Наш коллектив</a></li>
+            <li class="help-item"><a href="#" class="help-link">Сотрудничество</a></li>
+            <li class="help-item"><a href="#" class="help-link">Контакты</a></li>
+            <li class="help-item"><a href="#" class="help-link">Акции</a></li>
+          </ul>
+        </div>
+        <!-- /.help -->
+      </section>
+      <section class="footer-bottom">
+        <div class="bottom-info">
+          <div class="brand">
+            <ul class="brand-list">
+              <li class="brand-item visa"><img src="img/Visa.png" alt="visa" class="brand-logo"></li>
+              <li class="brand-item mastercard"><img src="img/Mastercard.png" alt="mastercard" class="brand-logo"></li>
+              <li class="brand-item mir"><img src="img/mir.png" alt="mir" class="brand-logo"></li>
+            </ul>
+            <span class="brand-separator">|</span>
+            <ul class="brand-list">
+              <li class="brand-item"><img src="img/rus-mail.png" alt="Почта России" class="brand-logo"></li>
+              <li class="brand-item"><img src="img/del-lin.png" alt="Деловые Линии" class="brand-logo"></li>
+              <li class="brand-item"><img src="img/cdek.png" alt="CDEK" class="brand-logo"></li>
+            </ul>
+          </div>
+          <small class="copyright">Copyright © Mir-Sporta.com 2013-2019 Любое несоответствие информации о продукте на сайте с фактом – лишь досадное недоразумение, звоните – уточняйте у менеджеров. Вся информация на сайте носит справочный характер и не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации.</small>
+        </div>
+        <!-- /.bottom-info -->
+      </section>
+    </div>
+    <!-- /.container -->
+  </footer>
+  <!-- /.footer -->
+  <script src="js/script.js"></script>
+</body>
+</html>

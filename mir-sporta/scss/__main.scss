@@ -1,0 +1,239 @@
+.main-page .container {
+  background-color: #E5E5E5;
+}
+
+.gallery {
+  background-color: #fff;
+  padding: 8px 64px;
+  padding-bottom: 70px;
+}
+
+.banner {
+  padding: 4px;
+}
+
+.market {
+  background-color: #fff;
+}
+
+.market-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 28px;
+  height: 56px;
+}
+
+.title-up {
+  display: flex;
+  align-self: start;
+  border-bottom: 8px solid #1B749F;
+}
+
+.title-down {
+  display: flex;
+  align-self: flex-end;
+  border-top: 8px solid #1B749F;
+}
+
+.market-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.market-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 16px;
+  width: 272px;
+  // height: 216px;
+}
+
+.market-image {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.market-counter {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  color: #9E9E9E;
+}
+
+.market-name {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+
+.shape-link {
+  width: 272px;
+  height: 176px;
+}
+.shape-image {
+  display: flex;
+  align-self: center;
+  width: 23px;
+  height: 36px;
+}
+
+.hits {
+  background-color: #fff;
+  padding-top: 24px;
+}
+
+.hits-title {
+  position: absolute;
+  margin-top: -6px;
+  padding-left: 72px;
+  padding-right: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 16px;
+  text-transform: uppercase;
+  background-color: #fff;
+}
+
+.hits-separator {border: 4px solid #1B749F;}
+
+.hits-list {
+  display: flex;
+  padding-top: 24px;
+}
+
+.hits-item {
+  width: 241px;
+  height: 435px;
+}
+
+.hits-name {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.hits-rating {
+  display: flex;
+}
+
+.star-list {
+  display: flex;
+  color: #F1EA42;
+}
+
+.hits-feedback {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #757575;
+}
+
+.cost-actual, .cost-new {
+  margin: 8px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}
+.cost-actual {color: #000;}
+.cost-new {color: #B03030;}
+
+.cost-old {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.btn-cart {
+  width: 152px;
+  height: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  border: none;
+  background-color: #1B749F;
+  color: #fff;
+}
+
+.feedback, .news, .brands {
+  padding: 40px 72px;
+  margin: 48px 0;
+  background-color: #fff;
+}
+
+.feedback, .news, .feedback-video, .news-video {
+  display: flex;
+}
+
+.feedback {
+  background-color: #1B749F;
+}
+
+.feedback-content, .news-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feedback-content {
+  color: #fff;
+}
+
+.feedback-text, .news-text {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.feedback-link, .news-link {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.feedback-link {color: #fff};
+.news-link {color: #000};
+.feedback-link:hover, .news-link:hover {color: #B03030}
+
+.video-item {
+  margin-left: 24px;
+}
+
+.brands-list {
+  display: flex;
+  justify-content: space-between;
+}
